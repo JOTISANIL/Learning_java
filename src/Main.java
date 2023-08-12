@@ -3,15 +3,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        System.out.printf("Hello and welcome!");
         Scanner sc = new Scanner(System.in);
-        String fruit = sc.next();
+        int n = sc.nextInt();
 
-        switch (fruit) {
-            case "mango" -> System.out.println("mango");
-            case "apple" -> System.out.println("appleee");
-            default -> System.out.println("Not fruit");
+        if(n%2==0){
+            System.out.println("Even");
         }
-
+        else{
+            System.out.println("Odd");
+        }
+        }
     }
-    }
-
